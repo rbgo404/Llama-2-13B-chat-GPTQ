@@ -2,11 +2,11 @@ from vllm import LLM, SamplingParams
 
 class InferlessPythonModel:
     def initialize(self):
-        model_id = "Inferless/inferless-phi-2-DPO"  # Specify the model repository ID
+        model_id = "TheBloke/Llama-2-13B-chat-GPTQ"  # Specify the model repository ID
         # Define sampling parameters for model generation
         self.sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=256)
         # Initialize the LLM object
-        self.llm = LLM(model=model_id,dtype="float16")
+        self.llm = LLM(model=model_id,quantization="gptq")
         
     def infer(self,inputs):
         prompts = inputs["prompt"]  # Extract the prompt from the input
