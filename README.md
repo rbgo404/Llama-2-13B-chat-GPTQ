@@ -1,5 +1,5 @@
-# Zephyr-7b-beta
-Zephyr is a series of language models that are trained to act as helpful assistants. Zephyr-7B-β is the second model in the series, and is a fine-tuned version of mistralai/Mistral-7B-v0.1 that was trained on on a mix of publicly available, synthetic datasets using Direct Preference Optimization (DPO).
+# Llama2-13B-Chat-GPTQ
+Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. This is the 13B fine-tuned GPTQ quantized model, optimized for dialogue use cases.  Llama-2-Chat models outperform open-source chat models on most benchmarks tested, and in human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM.
 
 ---
 ## Prerequisites
